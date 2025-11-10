@@ -3,7 +3,7 @@
 How to run:
 - `npm ci`
 - `npm run start:server`
-- `OTEL_LOG_LEVEL=info OTEL_TRACE_EXPORTER=console npm run start:client`
+- `OTEL_LOG_LEVEL=info OTEL_TRACES_EXPORTER=console npm run start:client`
 
 Client output:
 
