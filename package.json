@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start:server": "node --loader @opentelemetry/instrumentation/hook.mjs --require @opentelemetry/auto-instrumentations-node/register ./helloworld/dynamic_codegen/greeter_server.js",
-    "start:client": "node --require @opentelemetry/auto-instrumentations-node/register --loader @opentelemetry/instrumentation/hook.mjs ./helloworld/dynamic_codegen/greeter_client.js test"
+    "start:client": "node --loader @opentelemetry/instrumentation/hook.mjs --require @opentelemetry/auto-instrumentations-node/register ./helloworld/dynamic_codegen/greeter_client.js"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.14.1",
